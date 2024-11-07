@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
- }
 
  header {
     position: sticky;
@@ -15,13 +12,14 @@ body {
     display: flex;
     justify-content: center;
     border-bottom: 2px solid #000000;
+    height: 3rem;
  }
  
  
  header .navbar ul {
     list-style: none;
     display: flex;
-    gap: 60px;
+    gap: 4rem;
  }
  
  
@@ -35,9 +33,11 @@ body {
  header .navbar ul li a {
     text-decoration: none;
     font-size: 20px;
-    padding: 20px;
     color: #ffffff;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
  }
  
  
@@ -50,7 +50,7 @@ body {
  header .navbar ul li ul {
     position: absolute;
     width: 200px;
-    background: #ffffff;
+    background: #3391c9;
     display: none;
  }
  
@@ -65,7 +65,8 @@ body {
  header .navbar ul li:hover > ul {
     display: block;
  }
- 
+
+
 
 
 /*  mobile */ 
