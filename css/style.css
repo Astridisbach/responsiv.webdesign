@@ -63,7 +63,7 @@ body {
     position: sticky;
     background: #3391c9;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     border-bottom: 2px solid #000000;
  }
  
@@ -114,7 +114,6 @@ body {
  header .navbar ul li:hover > ul {
     display: block;
  }
- 
 
 
 
@@ -124,6 +123,8 @@ body {
    .search-form {
       display: none; /* Skjul søgefeltet på små skærme */
     }
+
+
 }
 
 
