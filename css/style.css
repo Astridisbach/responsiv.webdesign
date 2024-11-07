@@ -14,20 +14,19 @@ body {
     background-color: #0179BF;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centers the content within the container */
+    justify-content: center; 
     width: 100%;
  }
  
  
  .banner-container .logo-img {
-    width: 8%; /* Set a specific width if needed, e.g., 10% */
+    width: 8%; 
     height: auto;
-    margin-right: auto; /* Pushes the banner image to be centered relative to the container */
- }
- 
+    margin-right: auto; 
+ } 
  
  .banner-container .banner-img {
-    width: 50%; /* Keeps the banner image centered and at 50% width */
+    width: 50%; 
     height: auto;
  }
  
