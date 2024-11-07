@@ -11,18 +11,18 @@ body {
  
  
  .banner-container {
-    background-color: #3577BA;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    width: 100%;
+   background-color: #3577BA;
+   display: flex;
+   width: auto;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
  }
  
  
  .banner-container .logo-img {
     width: 8%; 
-    height: auto;
-    margin-right: auto; 
+    height: auto; 
  } 
  
  .banner-container .banner-img {
@@ -117,12 +117,13 @@ body {
 
 
 
-
 /*  mobile */ 
 @media(max-width: 600px) {
    .search-form {
       display: none; /* Skjul søgefeltet på små skærme */
     }
+
+   
 
 
 }
