@@ -4,7 +4,67 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+ }
 
+ header {
+    position: sticky;
+    background: #3391c9;
+    padding: 10px 7%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #000000;
+ }
+ 
+ 
+ header .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+ }
+ 
+ 
+ header .navbar ul li {
+    position: relative;
+    float: left;
+ }
+ 
+ 
+ header .navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+ }
+ 
+ 
+ header .navbar ul li a:hover {
+    background: #0179BF;
+    color: #ffffff;
+ }
+ 
+ 
+ header .navbar ul li ul {
+    position: absolute;
+    width: 200px;
+    background: #ffffff;
+    display: none;
+ }
+ 
+ 
+ header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+ }
+ 
+ 
+ header .navbar ul li:focus-within > ul,
+ header .navbar ul li:hover > ul {
+    display: block;
+ }
+ 
 
 
 /*  mobile */ 
