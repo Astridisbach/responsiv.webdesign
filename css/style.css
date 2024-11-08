@@ -13,9 +13,10 @@ body {
  .banner-container {
     background-color: #3577BA;
     display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    width: 100%;
  }
  
  
