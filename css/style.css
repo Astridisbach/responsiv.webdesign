@@ -11,18 +11,18 @@ body {
  
  
  .banner-container {
-   background-color: #3577BA;
-   display: flex;
-   width: auto;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
+    background-color: #3577BA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
  }
  
  
  .banner-container .logo-img {
     width: 8%; 
-    height: auto; 
+    height: auto;
+    margin-right: auto; 
  } 
  
  .banner-container .banner-img {
@@ -63,15 +63,15 @@ body {
     position: sticky;
     background: #3391c9;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     border-bottom: 2px solid #000000;
-    align-items: center;
  }
  
  
  header .navbar ul {
     list-style: none;
     display: flex;
+    gap: 60px;
  }
  
  
@@ -114,16 +114,16 @@ body {
  header .navbar ul li:hover > ul {
     display: block;
  }
-
  
+
+
+
 
 /*  mobile */ 
 @media(max-width: 600px) {
    .search-form {
       display: none; /* Skjul søgefeltet på små skærme */
     }
-
-
 }
 
 
