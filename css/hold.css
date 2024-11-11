@@ -1,6 +1,10 @@
 /* mobil og tablet */
 @media (max-width: 991px) {
 
+.Kalender {
+
+}
+
 }
 
 
@@ -8,5 +12,7 @@
 /* desktop */ 
 @media (min-width: 992px) {
 
+    .Kalender {
+        max-width: 400px;
+    }
 }
-
