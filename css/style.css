@@ -17,12 +17,15 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-height: 6rem;
  }
  
  
  .banner-container .logo-img {
     width: 8%; 
     height: auto;
+    max-height: 6rem;
+    max-width: 6rem;
  } 
  
  .banner-container .banner-img {
