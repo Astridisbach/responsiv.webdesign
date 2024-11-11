@@ -12,7 +12,24 @@
 /* desktop */ 
 @media (min-width: 992px) {
 
-    .Kalender {
+    .kalender {
         max-width: 400px;
+        margin: 20px auto;
+    }
+
+    .november {
+        
+    }
+
+    .ugedage {
+       
+    }
+
+    .dage {
+    
+    }
+
+    .dag {
+
     }
 }
