@@ -35,7 +35,7 @@
 
     .dag {
         text-align: center;
-        border: 1px solid #0900b7;
+        border: 1px solid #19156a;
         padding: 15px;
         cursor: pointer;
         background-color: white;
@@ -90,32 +90,34 @@
     .november {
         background-color: #0900b7;
         color: white;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
-        font-size: 26px;
+        font-size: 35px;
     }
 
     .ugedage {
         display: grid;
         grid-template-columns: repeat(7,1fr);
         background-color: rgb(184, 212, 255);
-        padding: 15px;
-        gap: 30px;
+        padding: 10px;
+        gap: 10px;
         text-align: center;
+        font-size: 17px;
     }
 
     .dage {
     grid-template-columns: repeat(7,1fr);
     display: grid;
     background-color: rgb(231, 244, 255);
-    padding: 15px;
-    gap: 30px;
+    padding: 10px;
+    gap: 10px;
+    font-size: 22px;
     }
 
     .dag {
         text-align: center;
-        border: 1px solid #0900b7;
-        padding: 5px;
+        border: 1px solid #19156a;
+        padding: 15px;
         cursor: pointer;
         background-color: white;
         text-decoration: none;
