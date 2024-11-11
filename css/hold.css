@@ -18,7 +18,11 @@
     }
 
     .november {
-        
+        background-color: #0900b7;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 26px;
     }
 
     .ugedage {
