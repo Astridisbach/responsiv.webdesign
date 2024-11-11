@@ -33,9 +33,15 @@
 
     .dag {
         text-align: center;
-
-
+        border: 1px solid #0900b7;
+        padding: 5px;
+        cursor: pointer;
+        background-color: white;
     }
+
+    .dag:hover {
+        background-color: #9dc2fd;
+      }
 
 }
 
