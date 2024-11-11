@@ -2,7 +2,7 @@
 @media (max-width: 991px) {
 
     .kalender {
-        max-width: 400px;
+        max-width: 465px;
         margin: 20px auto;
     }
 
@@ -17,17 +17,23 @@
     .ugedage {
         display: grid;
         grid-template-columns: repeat(7,1fr);
-        background-color: #ddd;
-        padding: 10px 0;
+        background-color: rgb(184, 212, 255);
+        padding: 15px;
+        gap: 30px;
         text-align: center;
     }
 
     .dage {
     grid-template-columns: repeat(7,1fr);
     display: grid;
+    background-color: rgb(231, 244, 255);
+    padding: 15px;
+    gap: 30px;
     }
 
     .dag {
+        text-align: center;
+
 
     }
 
