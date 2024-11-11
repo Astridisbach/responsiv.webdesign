@@ -37,6 +37,7 @@
         padding: 5px;
         cursor: pointer;
         background-color: white;
+        text-decoration: none;
     }
 
     .dag:hover {
