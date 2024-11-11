@@ -140,6 +140,17 @@ footer {
    margin-right: 5px;
 }
 
+.footerlogo {
+   width: 2rem
+}
+
+.footer-item {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+
 
 
 /*  mobile */ 
