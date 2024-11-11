@@ -1,6 +1,8 @@
+/* mobil og tablet */
+@media (max-width: 991px) {
 .accordion-container {
     width: 100%;
-    max-width: 400px;
+    padding: 2rem;
  }
  
  .accordion {
@@ -19,6 +21,7 @@
     cursor: pointer;
     border: 2px solid #d3e4f2;
     background-color: white;
+    width: 100%;
  }
  
  .accordion-content {
@@ -40,3 +43,87 @@
  .toggle:checked + .accordion-header + .accordion-content {
     display: block;
  }
+}
+
+
+
+
+
+
+/* desktop */ 
+@media (min-width: 992px) {
+    .accordion-container {
+        display: grid;
+        grid-template-columns: 1fr 1px 1fr; /* Two columns with a 1px divider in between */
+        gap: 20px;
+        align-items: start;
+        padding: 20px;
+    }
+    
+    .accordion-container::before {
+        content: '';
+        grid-column: 2;
+        background-color: #1b75bb;
+        width: 1px;
+        height: 100%;
+    }
+    
+    /* Styling each accordion in two columns */
+    .accordion {
+        max-width: 90%;
+        border: 1px solid #1b75bb;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .accordion-header {
+        display: block;
+        padding: 15px;
+        text-align: center;
+        font-weight: bold;
+        color: #3577BA;
+        font-size: 20px;
+        cursor: pointer;
+        border: 2px solid #d3e4f2;
+        background-color: white;
+        width: 100%;
+     }
+    
+    .accordion:nth-child(odd) {
+        grid-column: 1;
+    }
+    
+    .accordion:nth-child(even) {
+        grid-column: 3;
+    }
+    
+    .accordion-header {
+        background-color: #ffffff;
+        color: #1b75bb;
+        padding: 15px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        display: block;
+    }
+    
+    .accordion-content {
+        display: none;
+        background-color: #ffffff;
+        padding: 10px;
+        font-size: 16px;
+        color: #333;
+    }
+    
+    /* Show content when checked */
+    .toggle:checked + .accordion-header + .accordion-content {
+        display: block;
+    }
+    .toggle {
+        display: none;
+     }
+     
+     .toggle:checked + .accordion-header + .accordion-content {
+        display: block;
+     }
+}
