@@ -1,38 +1,43 @@
-.calendar {
+.kalender {
     border: 1px solid #ccc;
     background-color: white;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    display: flexbox;
 }
 
-.month-year {
+.maaned-aar {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.weekdays {
+.hverdage {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     font-weight: bold;
     margin-bottom: 10px;
+    text-align: right;
+    display: flexbox;
 }
 
-.days {
+.dage {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-gap: 5px;
+    display: flexbox;
 }
 
-.day {
+.dag {
     padding: 10px;
     text-align: center;
     background-color: #f0f0f0;
     border-radius: 5px;
+    display: flexbox;
 }
 
 .day:hover {
-    background-color: #ddd;
+    background-color: #cadb61;
     cursor: pointer;
 }
