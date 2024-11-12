@@ -43,11 +43,11 @@
     }
 
     #dag5, #dag7, #dag12, #dag14, #dag19, #dag21, #dag26, #dag28 {
-        background-color: #cadb61;
+        background-color: #92b085;
     }
 
     #dag2, #dag9, #dag16 {
-        background-color: #516f2e;
+        background-color: #9c5456;
     }
 
     .dag:hover {
@@ -111,7 +111,7 @@
     }
 
     .november {
-        background-color: #0900b7;
+        background-color: #0c539b;
         color: white;
         padding: 10px;
         text-align: center;
@@ -147,12 +147,12 @@
     }
 
     #dag5, #dag7, #dag12, #dag14, #dag19, #dag21, #dag26, #dag28 {
-        background-color: lightgreen;
+        background-color: #92b085;
     }
 
 
     #dag2, #dag9, #dag16 {
-        background-color: red;
+        background-color: #9c5456;
     }
 
     .dag:hover {
