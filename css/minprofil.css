@@ -12,7 +12,7 @@ body {
 /* Responsive Design mobil*/
 @media (max-width: 600px){
 
-  /* holdinfo start */
+/* holdinfo start */
 
     .hold-info-element {
         border: 3px solid #0179bf;   
@@ -33,7 +33,84 @@ body {
         margin-top: -2px;
 
    } 
+/* hold info slut */
 
+/* kalalender start */
+    .kalender {
+        max-width: 465px;
+        margin: 20px auto;
+    }
 
-  /* hold info slut */
+    .november {
+        background-color: #0900b7;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .ugedage {
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        background-color: rgb(184, 212, 255);
+        padding: 10px;
+        gap: 10px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .dage {
+        grid-template-columns: repeat(7,1fr);
+        display: grid;
+        background-color: rgb(231, 244, 255);
+        padding: 10px;
+        gap: 10px;
+        font-size: 22px;
+    }
+
+    .dag {
+        text-align: center;
+        border: 1px solid #19156a;
+        padding: 15px;
+        cursor: pointer;
+        background-color: white;
+        text-decoration: none;
+    }
+
+    .dag:hover {
+        background-color: #9dc2fd;
+    }
+
+    .popup {
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        position: fixed;
+    }
+
+    .popup-indhold {
+        background-color: white;
+        padding: 25px;
+        border-radius: 25px;
+        text-align: center;
+}
+
+    .luk {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        font-size: 50px;
+        color: white;
+        text-decoration: none;
+        }
+    .popup:target {
+        display: flex;
+    }
+/* kalalender slut */
+  
 }
