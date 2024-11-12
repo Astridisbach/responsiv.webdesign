@@ -41,7 +41,7 @@ body {
     margin: 20px auto;          
     width: 400px;                
     text-align: center;
-     display: flex;
+    display: flex;
     flex-direction: column;
    }
 
@@ -156,6 +156,31 @@ body {
     }
 /* kalalender slut */
 
+/* kontakt start */
+
+    .kontakt-element {
+        border: 3px solid #0179bf;   
+        border-radius: 8px;                         
+        margin: 20px auto;          
+        width: 550px;                
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .min-info {
+        position: absolute;
+        right: 305px;
+        top: 1230px;
+}
+
+    .kontakt-person {
+        position: absolute;
+        right: 390px;
+        top: 1290px;
+}
+
+/* kontakt slut */
 
   
 }
