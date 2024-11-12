@@ -31,9 +31,52 @@ body {
         text-align: left;
         margin-left: -3px;
         margin-top: -2px;
-
    } 
 /* hold info slut */
+
+/* statestik start */
+   .din-statestik-element {
+    border: 3px solid #0179bf;   
+    border-radius: 8px;                         
+    margin: 20px auto;          
+    width: 400px;                
+    text-align: center;
+     display: flex;
+    flex-direction: column;
+   }
+
+   .statestik-info {
+    border: 3px solid #0179bf;   
+    border-radius: 8px;          
+    padding: 30px;               
+    margin: 20px auto;          
+    width: 400px;   
+    text-align: left;
+    margin-left: -3px;
+    margin-top: -2px;
+    justify-content: space-between;
+    vertical-align: inherit;
+    display: flex;
+    flex-direction: column;
+   }
+
+   thead{
+    justify-content: space-between;
+   }
+
+   th{
+    padding: 5px;
+   }
+
+   tbody{
+    justify-content: space-between;
+   }
+
+   td{
+    padding: 20px;
+   }
+
+/* statestik slut */
 
 /* kalalender start */
     .kalender {
@@ -112,5 +155,7 @@ body {
         display: flex;
     }
 /* kalalender slut */
+
+
   
 }
