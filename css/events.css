@@ -42,10 +42,22 @@
         text-decoration: none;
     }
 
+    #dag5, #dag7, #dag12, #dag14, #dag19, #dag21, #dag26, #dag28 {
+        background-color: lightgreen;
+    }
+
+    #dag2, #dag9, #dag16 {
+        background-color: red;
+    }
+
     .dag:hover {
         background-color: #9dc2fd;
-      }
+    }
 
+    a:visited {
+        color: black;
+    }
+      
     .popup {
       display: none;
       width: 100%;
@@ -76,6 +88,9 @@
     .popup:target {
         display: flex;
     }
+    
+    
+
 }
 
 
@@ -123,9 +138,30 @@
         text-decoration: none;
     }
 
+    #dag5, #dag7, #dag12, #dag14, #dag19, #dag21, #dag26, #dag28 {
+        background-color: lightgreen;
+    }
+
+
+    #dag2, #dag9, #dag16 {
+        background-color: red;
+    }
+
     .dag:hover {
         background-color: #9dc2fd;
-      }
+    }
+
+    #dag2:hover, #dag5:hover, #dag7:hover, #dag9:hover, #dag12:hover, #dag14:hover, #dag16:hover, #dag19:hover, #dag21:hover, #dag26:hover, #dag28:hover {
+        background-color: #9dc2fd;
+    }
+
+    #none {
+        pointer-events: none;
+    }
+
+    a:visited {
+        color: black;
+    }
 
     .popup {
       display: none;
@@ -157,4 +193,5 @@
     .popup:target {
         display: flex;
     }
+
 }
