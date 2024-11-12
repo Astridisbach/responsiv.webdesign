@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+ }
+ 
+  /* */
+/* Responsive Design mobil*/
+@media (max-width: 600px){
+
+  /* holdinfo start */
+
+    .hold-info-element {
+        border: 3px solid #0179bf;   
+        border-radius: 8px;                         
+        margin: 20px auto;          
+        width: 400px;                
+        text-align: center;
+    }
+
+   .info-box-element {
+        border: 3px solid #0179bf;   
+        border-radius: 8px;          
+        padding: 20px;               
+        margin: 20px auto;          
+        width: 400px;   
+        text-align: left;
+        margin-left: -3px;
+        margin-top: -2px;
+
+   } 
+
+
+  /* hold info slut */
+}
