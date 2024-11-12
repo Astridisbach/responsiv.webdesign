@@ -20,6 +20,10 @@ body {
     max-height: 6rem;
  }
  
+ a {
+   display: flex;
+   justify-content: center;
+}
  
  .banner-container .logo-img {
     width: 8%; 
