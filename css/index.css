@@ -274,8 +274,13 @@ font-size: 15px;
         font-size: 1.5rem;
     }
 
-   
-}
+   /* kalender */
+   .ugedage, .dage {
+    font-size: 0.5rem;
+   }
+   }
+
+  
 
 
 /* Responsive desktop*/
