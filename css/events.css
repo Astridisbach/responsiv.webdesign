@@ -119,8 +119,8 @@
       }
       
       .tilmeld {
-        background-color: lightgreen;
-        color: white;
+        background-color: #cadb61;
+        color: black;
         padding: 5px 10px;
         border: none;
         cursor: pointer;
@@ -135,6 +135,6 @@
 
       .pris {
         font-size: 1.1em;
-        color: darkblue;
+        color: #0c539b;
       }
     
