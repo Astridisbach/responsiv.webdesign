@@ -1,3 +1,32 @@
+.main-box {
+  display: flex;
+  gap: 20px; 
+  padding: 10px;
+}
+
+.skolebox {
+  background-color: #3476BA;
+  width: 465px;
+  height: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.skolebox p {
+  background-color: #3477BA;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 35px;
+}
+
+.box-billede {
+  width: 100%;
+  height: auto;
+}
+
+
+
 .kalender {
         max-width: 465px;
         margin: 20px auto;
@@ -96,6 +125,8 @@
     }
 
 
+
+    
 
     .container {
         display: flex;
