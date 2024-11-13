@@ -36,8 +36,7 @@ a {
   flex-direction: column;
   gap: 15px;
   padding: 30px;
-  align-items: left;
-  margin-left: 70px;
+  align-items: center;
 }
 
 .box {
@@ -176,10 +175,3 @@ a:visited {
 .popup:target {
    display: flex;
 }
-
-
-
-    
-
-    
-    
