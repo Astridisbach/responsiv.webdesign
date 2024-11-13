@@ -29,11 +29,15 @@ a {
   height: auto;
 }
 
+
+
 .container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 20px;
+  gap: 15px;
+  padding: 30px;
+  align-items: left;
+  margin-left: 70px;
 }
 
 .box {
@@ -42,7 +46,8 @@ a {
   align-items: center;
   padding: 10px;
   background-color: #E6F4FF;
-  max-width: 750px;
+  max-width: 565px;
+  width: 100%;
 }
 
 .title {
@@ -70,6 +75,8 @@ a {
   font-size: 1.1em;
   color: #0c539b;
 }
+
+
 
 
 
