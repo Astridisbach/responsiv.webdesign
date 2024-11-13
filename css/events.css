@@ -94,3 +94,47 @@
     .popup:target {
         display: flex;
     }
+
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+      }
+      
+      .box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #e0eaf2;
+        border: 1px solid #ccc;
+        max-width: 500px;
+      }
+      
+      .title {
+        font-size: 1.2em;
+      }
+      
+      .tilmeld {
+        background-color: lightgreen;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .tilmeld-pris {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+
+      }
+
+      .pris {
+        font-size: 1.1em;
+        color: darkblue;
+      }
+    
