@@ -1,131 +1,137 @@
-/* mobil og tablet */
-@media (max-width: 991px) {
-.accordion-container {
-    width: 100%;
-    padding: 2rem;
- }
- 
- .accordion {
-    border: 2px solid #d3e4f2;
-    margin-bottom: 10px;
-    background-color: white;
- }
- 
- .accordion-header {
-    display: block;
-    padding: 15px;
-    text-align: center;
-    font-weight: bold;
-    color: #3577BA;
-    font-size: 20px;
-    cursor: pointer;
-    border: 2px solid #d3e4f2;
-    background-color: white;
-    width: 100%;
- }
- 
- .accordion-content {
-    padding: 10px 15px;
-    background-color: #f0f8ff;
-    display: none;
- }
- 
- .accordion-content p {
-    color: #333;
-    font-size: 16px;
- }
- 
- /* Toggle CSS */
- .toggle {
-    display: none;
- }
- 
- .toggle:checked + .accordion-header + .accordion-content {
-    display: block;
- }
+/* Base styles */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
+.section {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
+.section-title {
+    padding: 1rem;
+    margin: 0;
+    color: #0066cc;
+    border-bottom: 1px solid #eee;
+    font-size: 1.2rem;
+}
 
+.content {
+    padding: 1rem;
+}
 
+/* Staff Grid Styling */
+.staff-grid {
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}
 
+.staff-member {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
-/* desktop */ 
+.staff-image {
+    width: 60px;
+    height: 60px;
+    background: #0066cc;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staff-details {
+    flex: 1;
+}
+
+.staff-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.staff-age, .staff-position {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Standings Styling */
+.standings-list {
+    padding: 1rem;
+}
+
+.team-standing {
+    padding: 0.5rem;
+    color: #0066cc;
+}
+
+/* Mobile Layout */
+@media (max-width: 600px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    .staff-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .staff-member {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 1rem;
+    }
+}
+
+/* Tablet Layout */
+@media (min-width: 601px) and (max-width: 991px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .staff-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Desktop Layout */
 @media (min-width: 992px) {
-    .accordion-container {
+    .container {
         display: grid;
-        grid-template-columns: 1fr 1px 1fr; /* Two columns with a 1px divider in between */
-        gap: 20px;
-        align-items: start;
-        padding: 20px;
-        justify-items: center;
-    }
-    
-    .accordion-container::before {
-        content: '';
-        grid-column: 2;
-        background-color: #1b75bb;
-        width: 1px;
-        height: 100%;
-    }
-    
-    /* Styling each accordion in two columns */
-    .accordion {
-        max-width: 90%;
-        border: 1px solid #1b75bb;
-        border-radius: 4px;
-        overflow: hidden;
-        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
     }
 
-    .accordion-header {
-        display: block;
-        padding: 15px;
-        text-align: center;
-        font-weight: bold;
-        color: #3577BA;
-        font-size: 20px;
-        cursor: pointer;
-        border: 2px solid #d3e4f2;
-        background-color: white;
-        width: 100%;
-     }
-    
-    .accordion:nth-child(odd) {
+    .section {
+        margin-bottom: 0;
+    }
+
+    .upcoming-matches {
         grid-column: 1;
     }
-    
-    .accordion:nth-child(even) {
+
+    .team-info {
+        grid-column: 2;
+    }
+
+    .team-staff {
         grid-column: 3;
     }
-    
-    .accordion-header {
-        background-color: #ffffff;
-        color: #1b75bb;
-        padding: 15px;
-        font-size: 20px;
-        text-align: center;
-        cursor: pointer;
-        display: block;
+
+    .standings {
+        grid-column: 1;
     }
-    
-    .accordion-content {
-        display: none;
-        background-color: #ffffff;
-        padding: 10px;
-        font-size: 16px;
-        color: #333;
+
+    .staff-grid {
+        grid-template-columns: 1fr;
     }
-    
-    /* Show content when checked */
-    .toggle:checked + .accordion-header + .accordion-content {
-        display: block;
-    }
-    .toggle {
-        display: none;
-     }
-     
-     .toggle:checked + .accordion-header + .accordion-content {
-        display: block;
-     }
 }
