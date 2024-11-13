@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .main-box {
   display: flex;
   gap: 20px; 
@@ -6,7 +10,7 @@
 
 .skolebox {
   background-color: #3476BA;
-  width: 465px;
+  width: 565px;
   height: 400px;
   margin: 20px auto;
   text-align: center;
