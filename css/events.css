@@ -14,15 +14,57 @@
 
 .skolebox p {
   background-color: #3477BA;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        font-size: 35px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
 }
 
 .box-billede {
   width: 100%;
   height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #E6F4FF;
+  max-width: 750px;
+}
+
+.title {
+  font-size: 1.2em;
+}
+
+.tilmeld {
+  background-color: #cadb61;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.tilmeld-pris {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+}
+
+.pris {
+  font-size: 1.1em;
+  color: #0c539b;
 }
 
 
@@ -128,44 +170,5 @@
 
     
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding: 20px;
-      }
-      
-      .box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        background-color: #e0eaf2;
-        border: 1px solid #ccc;
-        max-width: 500px;
-      }
-      
-      .title {
-        font-size: 1.2em;
-      }
-      
-      .tilmeld {
-        background-color: #cadb61;
-        color: black;
-        padding: 5px 10px;
-        border: none;
-        cursor: pointer;
-      }
-      
-      .tilmeld-pris {
-        display: flex;
-        justify-content: space-between;
-        width: 40%;
-
-      }
-
-      .pris {
-        font-size: 1.1em;
-        color: #0c539b;
-      }
+    
     
