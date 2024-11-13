@@ -99,7 +99,7 @@ header .navbar ul li a {
    text-decoration: none;
    font-size: 20px;
    padding: 18px;
-   color: #0c539b;
+   color: white;;
    display: block;
 
 }
@@ -211,7 +211,7 @@ header .navbar{
    top: 100%;
    left: 0;
    right: 0;
-   background: #fff;
+   background: #3391c9;
    border-top: 1px rgba(0,0,0,0.1);
    display: none;
 }
@@ -226,7 +226,7 @@ header .navbar ul li ul{
 }
 
 header .navbar ul li ul li{
-   background: #eee;
+   background: #3391c9;
 }
 
 header .navbar ul li ul li ul{
