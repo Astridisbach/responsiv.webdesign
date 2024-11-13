@@ -25,6 +25,9 @@
 
 .content {
     padding: 1rem;
+    line-height: 1.75rem;
+    color: #0066cc;
+    text-align: justify;
 }
 
 /* Staff Grid Styling */
@@ -57,11 +60,11 @@
 
 .staff-name {
     font-weight: bold;
-    color: #333;
+    color: black;
 }
 
-.staff-age, .staff-position {
-    color: #666;
+.staff-position {
+    color: black;
     font-size: 0.9rem;
 }
 
