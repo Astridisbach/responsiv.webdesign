@@ -11,6 +11,8 @@ body {
    font-weight: 300;
    font-style: normal;
    background: linear-gradient(#6dade2, #c1d5e5);
+   width: auto;
+   min-width: 25rem;
  }
  
  
