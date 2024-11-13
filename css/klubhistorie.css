@@ -68,6 +68,13 @@
         width: 1px;
         height: 100%;
     }
+
+    .accordion-content p {
+        color: #0c539b; /* Tekstfarve */
+        text-align: justify; /* Justering af tekst på begge sider */
+        line-height: 1.5; /* Linjeafstand */
+        padding-bottom: 1rem;
+    }
     
     /* Styling each accordion in two columns */
     .accordion {
