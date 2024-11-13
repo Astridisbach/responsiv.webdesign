@@ -72,11 +72,11 @@
 }
 
 .team-logo.brabrand {
-    background-image: url(../images/logo.webp)
+    background-image: url(../images/navbar.footer/logo.webp)
 }
 
 .team-logo.aalborg {
-    background-image: url(../images/aalborgfrejalogo.png);
+    background-image: url(../images/forside/aalborgfrejalogo.png);
 }
 
 .team-name {
