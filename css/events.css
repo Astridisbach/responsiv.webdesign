@@ -137,9 +137,6 @@ a {
   pointer-events: none;
 }
 
-a:visited {
-  color: black;
-}
       
 .popup {
   display: none;
