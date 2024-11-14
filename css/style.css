@@ -237,6 +237,11 @@ header .navbar ul li ul li ul{
 #menu-bar:checked ~ .navbar{
    display: block;
 }
+article img {
+   display: flex;
+   flex-direction: column;
+   max-width: 100%
+};
 }
 
 
