@@ -168,7 +168,7 @@
 }
 
 .november {
-    background-color: #3577BA;
+    background-color: #3477BA;
     color: white;
     padding: 10px;
     text-align: center;
@@ -197,7 +197,7 @@ font-size: 15px;
 
 .dag {
     text-align: center;
-    border: 1px solid #19156a;
+    border: 1px solid #0c539b;;
     padding: 15px;
     cursor: pointer;
     background-color: white;
@@ -206,12 +206,12 @@ font-size: 15px;
 }
 
 #dag5, #dag7, #dag12, #dag14, #dag19, #dag21, #dag26, #dag28 {
-    background-color: lightgreen;
+    background-color: #a6e48b;
 }
 
 
 #dag2, #dag9, #dag16 {
-    background-color: red;
+    background-color: #e48285;
 }
 
 .dag:hover {
