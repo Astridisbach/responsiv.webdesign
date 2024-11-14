@@ -175,3 +175,11 @@ a:visited {
 .popup:target {
    display: flex;
 }
+
+@media (max-width: 600px) {
+  
+ /* kalender */
+ .ugedage, .dage {
+  font-size: 0.5rem;
+ }
+ }
