@@ -135,7 +135,7 @@ a {
   background-color: #9dc2fd;
 }
 
-#none {
+#none1, #none2, #none3, #none4, #none5  {
   pointer-events: none;
 }
 
