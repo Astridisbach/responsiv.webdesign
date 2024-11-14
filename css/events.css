@@ -50,13 +50,15 @@ a {
   font-size: 1.2em;
 }
 
-.tilmeld {
-  background-color: #cadb61;
-  color: black;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
+.button-style {
+  display: inline-block; /* Gør det muligt at tilføje padding som en knap */
+  padding: 10px 20px;    /* Giver lidt luft omkring teksten */
+  background-color: #4CAF50; /* Baggrundsfarve på knappen */
+  color: white;           /* Tekstfarve */
+  text-decoration: none;  /* Fjerner understregning */
+  border-radius: 5px;     /* Gør knappen lidt rund */
+  font-size: 16px;        /* Juster tekststørrelsen */
+  text-align: center;     /* Centrerer teksten i knappen */
 }
 
 
