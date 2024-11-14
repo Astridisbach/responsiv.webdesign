@@ -9,11 +9,8 @@ a {
 }
 
 .skolebox {
-  background-color: #3476BA;
-  width: 565px;
-  height: 1px;
   margin: 20px auto;
-  text-align: center;
+  max-width: 500px;
 }
 
 .skolebox p {
@@ -177,9 +174,21 @@ a:visited {
 }
 
 @media (max-width: 600px) {
-  
+
  /* kalender */
  .ugedage, .dage {
   font-size: 0.5rem;
+ }
+ .main-box {
+  display: flex;
+  flex-direction: column;
+}
+ 
+}
+
+ @media (min-width: 601px) and (max-width: 991px){
+  .main-box {
+    display: flex;
+    flex-direction: column;
  }
  }
