@@ -185,6 +185,12 @@ footer {
    color: #ffffff;
 }
 
+.sponsorfooter {
+   display: flex;
+}
+
+
+
 
 /*  mobile */ 
 @media(max-width: 600px) {
@@ -237,11 +243,12 @@ header .navbar ul li ul li ul{
 #menu-bar:checked ~ .navbar{
    display: block;
 }
-article img {
+.footerarticle {
    display: flex;
    flex-direction: column;
-   max-width: 100%
-};
+   width: 100%;
+}
+
 }
 
 
@@ -291,6 +298,10 @@ article img {
       display: block;
    }
 
+   .sponsorfooter {
+      display: flex;
+      width: 25%;
+   }
 }
 
 
@@ -299,5 +310,12 @@ article img {
 
 /* desktop */ 
 @media (min-width: 992px) {
-
+   .footerarticle{
+      display: flex;
+      max-width: 100%;
+   }
+   .sponsorfooter {
+      display: flex;
+      width: 25%;
+   }
 }
