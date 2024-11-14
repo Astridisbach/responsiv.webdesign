@@ -117,7 +117,7 @@
                 <p class="match-status">Ikke påbegyndt</p>
             </article>
     
-            <!-- TILLADER EN KALENDERFUNKTION -->
+            <!-- DETTE ER HOVEDCONTAINEREN, ALT INDHOLD I KALENDEREN HØRER HERUNDER -->
             <article class="kalender">
                 <article class="november">November</article>
                 <article class="ugedage">
@@ -129,6 +129,9 @@
                     <p>Lørdag</p>
                     <p>Søndag</p>
                 </article>
+                <!-- HERUNDER HAR VI VORES POPUP FUNKTION I KALENDEREN-->
+                <!-- DETTE ELEMENT INDHOLDER ALLE MÅNEDSDAGENE HVOR HVER DAG HAR ET <a> TAG, DER FØRE TIL EN POPUP MED DAGENS OPLYSNINGER. 
+                   DAGENE MED ET DAG ID ER DEM VI HAR STYLET I CSS FORDI DET ER DE ENESTE DAGE DER HAR OPLYSNINGER, SOM TRÆNINGER ELLER KAMPE. -->
                 <article class="dage">
                     <a href="#popup1" class="dag" id="none1"></a>
                     <a href="#popup2" class="dag" id="none2"></a>
@@ -258,7 +261,7 @@
     <footer>
         <article class="footer-container">
             <article class="footer-item">
-                <!-- FØLGENDE LINK VIRKER OG FØRER VIDERE TIL EKSTERNE SIDER -->
+                <!-- FØLGENDE LINKS VIRKER OG FØRER VIDERE TIL EKSTERNE SIDER -->
                 <span class="footer-icon"><a href="https://www.facebook.com/BIFUngdom" target="_blank"><img src="images/navbar.footer/facebooklogo.png" alt="Facebook logo" class="footerlogo" aria-label="Gå til facebook"></a></span>
                 <span class="footer-icon"><a href="https://www.instagram.com/brabrand_if/" target="_blank"><img src="images/navbar.footer/instagramlogo.png" alt="Instagram logo" class="footerlogo" aria-label="Gå til instagram"> </a></span>
                 <a href="#" class="kontakt">Kontakt</a>
