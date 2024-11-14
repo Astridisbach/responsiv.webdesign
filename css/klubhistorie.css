@@ -43,6 +43,14 @@
  .toggle:checked + .accordion-header + .accordion-content {
     display: block;
  }
+
+ p{
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-left: 0;
+    margin-right: 0;
+ }
+
 }
 
 
