@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://responsive.webdesign.astridisbach.dk/</loc>
+  <lastmod>2024-11-14T12:14:07+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://responsive.webdesign.astridisbach.dk/index.html</loc>
+  <lastmod>2024-11-14T12:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://responsive.webdesign.astridisbach.dk/klubhistorie.html</loc>
+  <lastmod>2024-11-14T12:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://responsive.webdesign.astridisbach.dk/hold.html</loc>
+  <lastmod>2024-11-14T12:14:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://responsive.webdesign.astridisbach.dk/events.html</loc>
+  <lastmod>2024-11-14T12:14:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://responsive.webdesign.astridisbach.dk/mithold.html</loc>
+  <lastmod>2024-11-14T12:14:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
